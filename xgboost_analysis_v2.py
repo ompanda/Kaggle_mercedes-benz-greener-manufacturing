@@ -133,7 +133,7 @@ print (len(list(test)))
 xgb_params = {
     'n_trees': 500,
     'eta': 0.005,
-    'max_depth': 4,
+    'max_depth': 20,
     'subsample': 0.95,
     'objective': 'reg:linear',
     'eval_metric': 'rmse',
@@ -150,7 +150,7 @@ dtest = xgb.DMatrix(test)
 # xgboost, cross-validation
 cv_result = xgb.cv(xgb_params,
                    dtrain,
-                   num_boost_round=700, # increase to have better results (~700)
+                   num_boost_round=2500, # increase to have better results (~700)
                    early_stopping_rounds=50,
                    verbose_eval=50,
                    show_stdv=False

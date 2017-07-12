@@ -13,7 +13,7 @@ base_output_path = './data/output/'
 PATH = './data/input/'
 TRAIN = 'train.csv'
 TEST = 'test.csv'
-SUBMIT = False
+SUBMIT = True
 LOGGING = 100
 
 # Hyper Parameters

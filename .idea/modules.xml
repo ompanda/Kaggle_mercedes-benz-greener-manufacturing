@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Kaggle_mercedes-benz-greener-manufacturing.iml" filepath="$PROJECT_DIR$/.idea/Kaggle_mercedes-benz-greener-manufacturing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Kaggle/planet-understanding-the-amazon-from-space/.idea/planet-understanding-the-amazon-from-space.iml" filepath="$PROJECT_DIR$/../Kaggle/planet-understanding-the-amazon-from-space/.idea/planet-understanding-the-amazon-from-space.iml" />
     </modules>
   </component>
 </project>
